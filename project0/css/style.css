@@ -78,7 +78,8 @@ button:focus {
 /* advancedsearch.html only: */
 
 span {
-  text-align: left;
+  position: absolute;
+  padding-top: 7px;
 }
 
 h1 {
@@ -98,16 +99,22 @@ h2 {
 }
 
 .advanced-input {
-  padding-left: 200px;
+  margin-left: 167px;
+  padding-left: 10px;
+  display: inline-block;
+  min-height: 30px;
+  vertical-align: middle;
+  width: 50%;
+  border: 1px solid rgb(195, 195, 195);
+}
+
+.advanced-input:focus {
+  outline: none;
+  border: 1px solid #4d90fe;
 }
 
 #advanced-h1 {
   margin: 18px 35px;
-}
-
-#advanced-input {
-  padding-left: 400px;
-  padding-right: 100px;
 }
 
 #button {
