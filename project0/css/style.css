@@ -113,11 +113,22 @@ h2 {
   border: 1px solid #4d90fe;
 }
 
+.advanced-button {
+  margin-left: 167px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+  height: 40px;
+}
+
 #advanced-h1 {
   margin: 18px 35px;
 }
 
 #button {
+  margin-top: 0;
   background-color: #4d90fe;
   color: #fff;
+  font-size: 11px;
+  float: right;
 }
