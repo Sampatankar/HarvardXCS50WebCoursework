@@ -29,7 +29,7 @@ flight = Flight(3)
 
 people = ["Harry", "Ron", "Hermione", "Ginny"]
 for person in people:
-    # success = flight.add_passenger(person)
+    # success = flight.add_passenger(person) - we can put this entire condition into the if statement, rather than through success var:
     if flight.add_passenger(person):
         print(f"Added {person} to flight successfully.")
     else:
